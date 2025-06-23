@@ -5,7 +5,7 @@ public class AllTheOtherVlitrumaitsAreScaredOfMe {
     public static void main(String[] args) {
         for (int i=10; i>=1 ; i++) {
 
-            System.out.println("balls ");
+            System.out.println("ball ");
         }
         
     }
