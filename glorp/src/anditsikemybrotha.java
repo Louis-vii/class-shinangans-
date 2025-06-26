@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.*;
 
 public class anditsikemybrotha {
     public static void main(String[] args) {
@@ -7,14 +7,14 @@ public class anditsikemybrotha {
             int x;
             int z;
             char y;
-            
+             
             System.out.println("what's x ");
             x=scanner.nextInt();
             System.out.println("what's z ");
             z=scanner.nextInt();
             System.out.println("whats the symbol ");
             y=scanner.next().charAt(0);
-            
+           
             switch (y) {
                 case '-': System.out.println(x-z);
                 break;
