@@ -28,7 +28,6 @@ public class aiarray {
     }
 
     // Printing results
-    System.out.println("\nResults:");
     for (int i = 0; i < 5; i++) {
       System.out.print(names[i] + ": ");
       for (int j = 0; j < 5; j++) {

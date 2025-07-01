@@ -12,29 +12,29 @@ public class arrays {
     for (int i = 0; i < names.length; i++) {
       System.out.println("name ? ");
       names[i] = scanner.nextLine();
-
+      double total = 0;
       for (int j = 0; j < 5; j++) {
         System.out.println("insert five marks ");
         marks[i][j] = scanner.nextDouble();
 
-        double total = 0;
-
         total += marks[i][j];
         sum[i] = total;
+        scanner.nextLine();
       }
 
     }
 
     // printing
-    for (int i = 0; i < 5; i++) {
-      System.out.print(names[i]);
+    for (int i = 0; i < names.length; i++) {
+      System.out.print(names[i] + "|");
+
       for (int j = 0; j < 5; j++) {
 
-        System.out.print(marks[i][j]);
-
-        System.out.println("sum=" + sum[i]);
+        System.out.print(marks[i][j] + " ");
 
       }
+
+      System.out.println("|sum=" + sum[i]);
     }
     scanner.close();
   }
