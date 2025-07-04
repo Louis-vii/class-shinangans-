@@ -2,23 +2,22 @@
 import java.util.*;
 
 public class pluh {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        
-        int i=1  ; 
-        double vact=1;
-        System.out.println("the number in mind is ?");
-        int n= scanner.nextInt();
+    Scanner scanner = new Scanner(System.in);
 
- 
-while (i<=n) {
- vact *=i;
-i++ ;   
-} //while 
+    int i = 1;
+    double vact = 1;
+    System.out.println("the number in mind is ?");
+    int n = scanner.nextInt();
 
-System.out.println("vact is = "+vact);
-scanner.close();    
-    
-} // main
+    while (i <= n) {
+      vact *= i;
+      i++;
+    } // while
+
+    System.out.println("vact is = " + vact);
+    scanner.close();
+
+  } // main
 } // class
