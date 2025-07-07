@@ -20,13 +20,14 @@ public class spaghittycode {
       a[i] = scanner.nextInt();
 
     }
-    for (int j = 0; j < b.length; j++) {
+    for (int j = 0; j < a.length; j++) {
       System.out.println("enter the second array ");
       b[j] = scanner.nextInt();
 
     }
 
     print(a, b);
+    scanner.close();
   }
 
   public static void print(int u[], int c[]) {
