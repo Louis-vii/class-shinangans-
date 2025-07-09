@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4thZPC3ucS8=",
+  "success": true,
+  "projectFilePath": "/home/louis/projct/c##/c##.csproj",
+  "expectedPackageFiles": [
+    "/home/louis/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.5/microsoft.aspnetcore.app.ref.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
